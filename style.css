@@ -1,0 +1,23 @@
+/*Set background color to gradient which is light yellow and yellow.*/
+* {
+	background: -webkit-gradient(linear, left top, left bottom, from(lightyellow), to(yellow));
+	background-color: linear-gradient(lightyellow, yellow); 
+}
+
+header {
+	/*	Set Header dimension to 140 X 70px*/
+	height: 70px; width: 140px;
+	/*	Set border to 1px.*/
+	border: 1px;
+	/*	Set Text color to white.*/
+	color: white;
+	background: blue;
+	/*	Set internal space to 20px.*/
+	padding: 20px;
+	/* Text and border-radius styling*/
+	text-align: center;
+	border-radius: 50%;
+}
+
+
+
